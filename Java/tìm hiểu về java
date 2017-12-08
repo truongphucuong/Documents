@@ -3,4 +3,8 @@
  
  Java là - 
          Hướng đối tượng (Object Oriented): Tất cả đều là Object. Dễ dàng mở rộng vì sử dụng nó trong moi trường Object.
-         Nền tảng độc 
+         Nền tảng độc lập (flatform independent): khi Java được biên soạn, nó không phải là biên dịch vào máy nền tảng cụ thể
+      thay vào đó là các mã byte độc lập.
+         Đảm bảo (Secure): Với tính năng bảo mật của Java, nó cho phép phát triển các hệ thống không có virut, giả mạo miễn phí.
+         Kiến trúc trung lập (Architecture-neutral): Mã biên dịch được thực thi trên nhiều bộ vi xử lí.
+         
