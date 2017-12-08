@@ -1,0 +1,22 @@
+Java Basic Systax:
+  Java "enum": 
+     Enum đã được giới thiệu trong Java 5.0. 
+     Enums hạn chế một biến để có một trong chỉ một vài giá trị được xác định trước. 
+     Các giá trị trong danh sách liệt kê này được gọi là enums.
+/*
+     ***************************
+     Ví dụ:
+        class FreshJuice {
+            enum FreshJuiceSize{ SMALL, MEDIUM, LARGE }
+            FreshJuiceSize size;
+       }
+
+        public class FreshJuiceTest {
+           public static void main(String args[]) {
+              FreshJuice juice = new FreshJuice();
+              juice.size = FreshJuice.FreshJuiceSize.SMALL ;
+              System.out.println("Size: " + juice.size);
+           }
+        }
+   *************************
+*/
