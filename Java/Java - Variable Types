@@ -1,0 +1,35 @@
+-------------------------
+        Variable
+-------------------------
+
+LOCAL VARIABLE:
+  - các biến local: được khai báo cùng với các PHƯƠNG THỨC - HÀM XÂY DỰNG - hoặc các khối.
+  - KHÔNG CÓ giá trị mặc định cho các biến local => cho nên phải khởi tạo giá trị cho chúng.
+  
+  ví dụ:
+    public class Test {
+     public void pupAge() {
+        int age = 0;
+        age = age + 7;
+        System.out.println("Puppy age is : " + age);
+     }
+
+     public static void main(String args[]) {
+        Test test = new Test();
+        test.pupAge();
+     }
+  }
+---------------------------------------------------------------------------  
+---------------------------------------------------------------------------
+HẰNG SỐ: FINAL
+    -   hằng số: là các giá trị không đổi.
+    -   cú pháp:    final [kiểu dữ liệu] [tên hằng số] = [giá trị].
+    -   thống nhất cách đặt tên: IN_HOA + UNDERSCORE (VD: IN_HOA).
+    -   KHÔNG ĐƯỢC GÁN LẠI GIÁ TRỊ =>
+    ví dụ:
+    public static void main(String[] args) {
+		final int YOUR_BIRTHDAY = 1994;
+		System.out.println("your birthday: " + YOUR_BIRTHDAY);
+        // gán gtri mới=> LỖI
+        YOUR_BIRTHDAY = 2000; // lỗi tại đây
+	}
