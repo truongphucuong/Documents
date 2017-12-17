@@ -1,0 +1,7 @@
+-------------------------
+      DATATYPE
+-------------------------
+    - Chia làm 2 loại:
+        + kiểu nguyên thủy: int/ float/ long/ byte/ double/ boolean/ char/ và String.
+        + kiểu tham chiếu: arrat/ class/ interface.
+        
